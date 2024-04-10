@@ -1,24 +1,54 @@
 .m-plus rounded 1c-regular {
     font-family: "M PLUS Rounded 1c", sans-serif;
     font-weight: 400;
-    font-style: normal;
-  }
+
+}
 *{
     font-family: "M PLUS Rounded 1c", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body{
     background-color: rgba(255, 160, 122, 0.315);
-    margin: 10px;
+    
 }
 i{
     font-size: 2em;
+    color: rgb(233, 7, 184);
+}
+i:hover{
     color: white;
 }
 header{
     width: 100%;
-    height: 150px;
+    /* max-width: 1200px; */
     background-color: lightpink;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    position: relative;
+    font-size: 2vw;
+    /* margin: 5px; */
+}
+main {
+    font-size: 1.5vw;
+    padding: 2%;
+
+}
+nav{
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container_menu{
+    width: 100%;
+    height: 20%;
+}
+nav h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 3vw;
 }
 nav a{
     background-color: rgb(73, 11, 55);
@@ -26,13 +56,56 @@ nav a{
     border-radius: 5px;
     text-decoration: none;
     padding: 5px;
+    margin: 5px;
 }
+nav a:hover{
+    color: rgb(218, 19, 218);
+}
+
 
 footer{
     background-color: lightpink;
     text-align: center;
     margin-top: 50px;
     border-radius: 5px;
+    font-size: 2vw;
 
     
+}
+.redes{
+    padding-top: 20px;
+}
+/* Estilo personalizado */
+form {
+    background-color: rgba(104, 23, 37, 0.418);
+    width: 80%;
+    border-radius: 4px;
+    margin: 1% 15%;
+    
+}
+h2{
+    font-size: 3vw;
+    font-style: italic;
+}
+label,input{
+    font-size: 1.5vw;
+    color: aqua;
+}
+input[type="text"],input[type="date"],input[type="number"]{
+    width: 60%;
+    display: inline-block;
+    border: 0.2vw solid rgb(39, 4, 11);
+    border-radius:4px ;
+}
+input[type="checkbox"]{
+    font-size: 1.5vw;
+}
+img{
+    max-width: 400px;
+}
+@media only screen and ( max-width : 600px ){
+    img{
+        width: 200px;
+        height: 200px;
+    }
 }

@@ -4,78 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>registrarse</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
-<!--Icon-->
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=M+PLUS+Rounded+1c&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icon-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <br>
         <a href="index.html">Home</a>
         <a href="acercade.html">Acerca de</a>
         <a href="contacto.html">Contacto</a>
         <a href="registrarse.html">Registrarse</a>
         <a href="sucursales.html">Sucursales</a>
-        <h1>
-          <b
-            ><u><center>Recetas de cocina</center></u></b
-          >
-        </h1>
       </nav>
+      <h1><b><u><center>Recetas de cocina</center></u></b></h1>
     </header>
     <main>
       <br />
       <br />
+      <form action="">
         <h2>Formulario de registro</h2>
-        <form action="">
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre aqui.." ><br><br>
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido aqui.."><br><br>
-            <label for="adress">Direccion:</label>
-            <input type="text" name="adress" id="adress" placeholder="Ingrese su direccion aqui.."><br><br>
-            <label for="city">Cuidad:</label>
-            <input type="text" name="city" id="city" value="Buenos Aires"><br><br>
-            <label for="cod-postal">Codigo postal:</label>
-            <input type="number" name="cod-postal" id="cod-postal"><br><br>
-            <label for="born">Fecha de nacimiento:</label>
-            <input type="date" name="born" id="born"><br><br><br>
-            <label for="genero">Genero</label>
-            <input type="radio" name="genero" id="genero" value="Hombre">Hombre
-            <input type="radio" name="genero" id="genero" value="Mujer">Mujer
-            <input type="radio" name="genero" id="genero" value="no binarie">No binarie <br><br>
-            <label for="study">Estudios:</label>
-            <input type="checkbox" name="study" id="study" value="1">Primarios
-            <input type="checkbox" name="study" id="study" value="2">Secundarios
-            <input type="checkbox" name="study" id="study" value="3">Terciarios
-            <input type="checkbox" name="study" id="study" value="4">Universitarios
-            <input type="checkbox" name="study" id="study" value="5">Otro 
-            <br><br>
-            <button>Enviar</button><br><br>
+        <div style="margin: 5px">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Ingrese su nombre aqui.."
+          /><br /><br />
+          <label for="apellido">Apellido:</label>
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder="Ingrese su apellido aqui.."
+          /><br /><br />
+          <label for="adress">Direccion:</label>
+          <input
+            type="text"
+            name="adress"
+            id="adress"
+            placeholder="Ingrese su direccion aqui.."
+          /><br /><br />
+          <label for="city">Cuidad:</label>
+          <input
+            type="text"
+            name="city"
+            id="city"
+            value="Buenos Aires"
+          /><br /><br />
+          <label for="cod-postal">Codigo postal:</label>
+          <input type="number" name="cod-postal" id="cod-postal" /><br /><br />
+          <label for="born">Fecha de nacimiento:</label>
+          <input type="date" name="born" id="born" /><br /><br /><br />
+          <label for="genero">Genero</label>
+          <input type="radio" name="genero" id="genero" value="Hombre" />Hombre
+          <input type="radio" name="genero" id="genero" value="Mujer" />Mujer
+          <input type="radio" name="genero" id="genero" value="no binarie" />No
+          binarie <br /><br />
+          <label for="study">Estudios:</label>
+          <input type="checkbox" name="study" id="study" value="1" />Primarios
+          <input type="checkbox" name="study" id="study" value="2" />Secundarios
+          <input type="checkbox" name="study" id="study" value="3" />Terciarios
+          <input
+            type="checkbox"
+            name="study"
+            id="study"
+            value="4"
+          />Universitarios
+          <input type="checkbox" name="study" id="study" value="5" />Otro <br />
+          <button>Enviar</button>
+        </div>
+      </form>
 
-
-        </form>
-
-      <footer >
-        <br />
-        <section style="text-align: center;">
-          <a href="https://www.instagram.com/agos_guevara/">
-              <i class='bx bxl-instagram'></i>
-          </a>
-          <a href="https://www.facebook.com/agui.guevara.9/">
-              <i class='bx bxl-facebook-circle' ></i>
-          </a>
-          <a href="https://www.linkedin.com/in/agostina-guevara/">
-              <i class='bx bxl-linkedin-square' ></i>
-          </a>
-      </section>
-        <p >Derechos reservados @2024</p>
-      </footer>
     </main>
+    <footer>
+      <section class="redes">
+        <a href="https://www.instagram.com/agos_guevara/"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.facebook.com/agui.guevara.9/"><i class="bx bxl-facebook-circle"></i></a>
+        <a href="https://www.linkedin.com/in/agostina-guevara/"><i class="bx bxl-linkedin-square"></i></a>
+      </section>
+      <p>Derechos reservados @2024</p>
+    </footer>
   </body>
 </html>
